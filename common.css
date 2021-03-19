@@ -15,11 +15,13 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   margin: 100px;
+  overflow-x: hidden;
 }
 
 section {
-  border: 1px solid black;
+  padding: 5vh 0;
   text-align: center;
+  position: relative;
 }
 
 h1 {
@@ -33,9 +35,9 @@ h2 {
 }
 
 p {
-  font-size: 1.3em;
-  padding-left: 140px;
-  padding-right: 140px;
+  font-size: 1.4em;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 button {
