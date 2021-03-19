@@ -1,0 +1,21 @@
+/* fonts, headers, buttons, footer, header, margin on entire page, max screen width/height, links and text effects, background colors/color palette */
+
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+
+:root {
+  --violet: #6f2dbd;
+  --fire: #ef6351;
+  --lavender: #b298dc;
+  --green: #09bc8a;
+  --cyan: #b9faf8;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: "Berkshire Swash", serif;
+  font-size: 3em;
+}
