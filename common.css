@@ -7,7 +7,7 @@
   --violet: #6f2dbd;
   --fire: #ef6351;
   --lavender: #b298dc;
-  --green: #09bc8a;
+  --green: #6ecab0;
   --cyan: #b9faf8;
 }
 
@@ -15,8 +15,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   overflow-x: hidden;
-  max-width: 1400px;
-  margin: auto;
+  margin: 10px;
 }
 
 /* HEADER */
@@ -24,6 +23,7 @@ body {
 header,
 footer {
   text-align: center;
+  padding: 20px;
 }
 
 ul {
@@ -63,7 +63,7 @@ section {
 
 h1 {
   font-family: "Lusitana", serif;
-  font-size: 4em;
+  font-size: 3em;
 }
 
 h2 {
@@ -73,8 +73,8 @@ h2 {
 
 p {
   font-size: 1.4em;
-  padding-left: 200px;
-  padding-right: 200px;
+  /* padding-left: 200px;
+  padding-right: 200px; */
 }
 
 button {
@@ -103,6 +103,11 @@ button:focus {
 }
 
 @media (min-width: 1100px) {
+  body {
+    max-width: 1400px;
+    margin: auto;
+  }
+
   main {
     margin: 100px;
   }
