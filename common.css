@@ -14,10 +14,47 @@
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  margin: 100px;
   overflow-x: hidden;
+  max-width: 1400px;
+  margin: auto;
 }
 
+/* HEADER */
+
+header,
+footer {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+header nav ul::after {
+  position: absolute;
+  bottom: -10px;
+  content: "";
+  width: 515px;
+  height: 1px;
+  background-color: grey;
+}
+
+ul li a {
+  text-decoration: none;
+  margin: 10px 14px;
+  color: gray;
+}
+
+footer ul li {
+  padding: 2px;
+}
+
+/* BODY */
 section {
   padding: 5vh 0;
   text-align: center;
@@ -63,4 +100,26 @@ button:active {
 
 button:focus {
   outline: 0;
+}
+
+@media (min-width: 1100px) {
+  main {
+    margin: 100px;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer ul {
+    display: block;
+    text-align: left;
+  }
 }
