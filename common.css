@@ -1,6 +1,7 @@
 /* fonts, headers, buttons, footer, header, margin on entire page, max screen width/height, links and text effects, background colors/color palette */
 
-@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lusitana:wght@700&display=swap");
 
 :root {
   --violet: #6f2dbd;
@@ -13,9 +14,51 @@
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
+  margin: 100px;
+}
+
+section {
+  border: 1px solid black;
+  text-align: center;
 }
 
 h1 {
-  font-family: "Berkshire Swash", serif;
+  font-family: "Lusitana", serif;
+  font-size: 4em;
+}
+
+h2 {
+  font-family: "Lusitana", serif;
   font-size: 3em;
+}
+
+p {
+  font-size: 1.3em;
+  padding-left: 140px;
+  padding-right: 140px;
+}
+
+button {
+  font-family: "Lusitana", serif;
+  font-size: 2em;
+  border: none;
+  background: none;
+  text-shadow: 2px 2px #86362b;
+  padding: 0.5em;
+  margin: 1em;
+  color: var(--fire);
+  text-decoration: underline;
+  text-underline-offset: 9px;
+}
+
+button:hover {
+  color: #f59d92;
+}
+
+button:active {
+  border: 2px dashed var(--fire);
+}
+
+button:focus {
+  outline: 0;
 }
