@@ -1,0 +1,36 @@
+/* for desktop */
+
+#popsockets img {
+  width: 200px;
+  height: auto;
+}
+#keychains img {
+  width: 400px;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 3vw;
+}
+#product img {
+  height: 500px;
+}
+#product {
+  border-right: 1px solid black;
+}
+#accessories {
+  display: inline-block;
+}
+section {
+  text-align: center;
+}
+/* grid layout */
+main {
+  display: grid;
+  grid-template-areas:
+    "product  accessories"
+    "product  accessories"
+    "color-pick color-pick";
+  gap: 1.2em;
+  max-width: 1200px;
+}
