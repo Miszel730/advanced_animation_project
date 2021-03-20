@@ -98,3 +98,13 @@ button {
   bottom: 50px;
   left: 38vw;
 }
+
+.right {
+  text-align: right;
+  margin-right: 2em;
+}
+
+.left {
+  text-align: left;
+  margin-left: 2em;
+}
