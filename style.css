@@ -10,6 +10,16 @@ section,
     flex-wrap: wrap;
 }
 
+.bubble {
+    position: absolute;
+    left: 49.5vw;
+    top: 25vh;
+    width: 1vw;
+    height: 1vw;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
 section:nth-child(2) h1 {
     color: var(--fire);
 }
@@ -33,8 +43,16 @@ section:nth-child(3) h1 {
     align-items: center;
 }
 
+.image {
+    background-image: url(./img/blur-effect.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 550px;
+}
+
 .container {
     margin: 10px;
+    max-width: 600px;
 }
 
 section:last-child img {
