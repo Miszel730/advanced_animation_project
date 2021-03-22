@@ -17,6 +17,7 @@ body {
   overflow-x: hidden;
   max-width: 1400px;
   margin: auto;
+  padding: 0vw 5vw;
 }
 
 /* HEADER */
@@ -63,12 +64,12 @@ section {
 
 h1 {
   font-family: "Lusitana", serif;
-  font-size: 4em;
+  font-size: 6em;
 }
 
 h2 {
   font-family: "Lusitana", serif;
-  font-size: 3em;
+  font-size: 3.5em;
 }
 
 p {
@@ -111,15 +112,38 @@ button:focus {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
   }
 
   footer {
     display: flex;
     justify-content: space-between;
+    padding-top: 2em;
   }
 
   footer ul {
     display: block;
     text-align: left;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 3em;
+    margin-bottom: 1.3em;
+  }
+  h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+  }
+  p {
+    padding: 0 1.5em;
+    font-size: 1em;
+  }
+
+  footer,
+  header {
+    padding-top: 2em;
   }
 }

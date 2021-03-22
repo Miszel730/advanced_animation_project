@@ -2,7 +2,7 @@
   background: rgb(9, 188, 138);
   background: radial-gradient(circle, rgba(9, 188, 138, 1) 41%, rgba(185, 250, 248, 1) 100%);
   max-height: 40vh;
-  padding: 20vh 0;
+  padding: 8vh 0;
   color: white;
 }
 
@@ -19,7 +19,8 @@
   background: rgb(178, 152, 220);
   background: radial-gradient(circle, rgba(178, 152, 220, 1) 22%, rgba(9, 188, 138, 1) 100%);
   color: white;
-  min-height: 65vh;
+  padding-top: 8vh;
+  padding-bottom: 8vh;
 }
 
 #four {
@@ -30,7 +31,8 @@
   background: rgb(111, 45, 189);
   background: radial-gradient(circle, rgba(111, 45, 189, 1) 33%, rgba(239, 99, 81, 1) 100%);
   color: white;
-  min-height: 65vh;
+  padding-top: 8vh;
+  padding-bottom: 8vh;
 }
 
 #phonebottom,
@@ -45,58 +47,61 @@
 }
 
 #socket2 {
-  width: 300px;
-  top: -150px;
-  left: 150px;
+  width: 15vw;
+  top: -7.5vw;
+  left: 100px;
 }
 
 #socket3 {
-  width: 600px;
+  width: 24vw;
   z-index: 5;
-  right: -300px;
-  bottom: -300px;
+  right: -12vw;
+  bottom: -12vw;
 }
 
 #phonebottom {
-  transform: scale(0.8);
-  left: 100px;
-  bottom: -500px;
+  width: 15vw;
+  left: 50px;
+  bottom: -20vw;
 }
 
 #phoneside {
-  transform: rotate(90deg) scale(0.7);
-  right: -600px;
-  top: -200px;
+  transform: rotate(90deg);
+  width: 20vw;
+  right: -25vw;
+  top: -20vh;
 }
 
 #keychains {
-  transform: scale(0.7);
-  left: 50px;
-  bottom: -250px;
+  width: 30vw;
+  left: 3vw;
+  bottom: 8vh;
   z-index: 5;
 }
 
 #boom {
-  left: 200px;
-  top: -40px;
-  transform: scale(0.8);
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  width: 20vw;
 }
 
 #socket {
-  transform: scale(0.7);
-  top: 100px;
+  width: 10vw;
+  left: 25vw;
 }
 
 #case {
-  right: -30px;
-  bottom: 10px;
+  width: 30vw;
+  right: 3vw;
+  bottom: 8vh;
   transform: rotate(20deg);
 }
 
 button {
   position: absolute;
-  bottom: 50px;
-  left: 38vw;
+  top: 45%;
+  left: 45%;
 }
 
 .right {
@@ -114,7 +119,7 @@ button {
   background-color: #f59d92;
   border-radius: 50px;
   padding: 5px 15px;
-  transition: .2s;
+  transition: 0.2s;
   text-decoration: none;
 }
 
@@ -124,10 +129,46 @@ button {
 }
 
 #shop-now:hover {
-  opacity: .95;
+  opacity: 0.95;
   color: white;
   /* background-color: #f3b3ab; */
   transform: scale(1.1);
   cursor: pointer;
-  transition: .2s;
+  transition: 0.2s;
+}
+
+@media only screen and (max-width: 800px) {
+  #phoneside,
+  #phonebottom,
+  #socket3,
+  #keychains,
+  #socket {
+    display: none;
+  }
+
+  #socket2 {
+    position: relative;
+    left: 0;
+    width: 25vw;
+  }
+
+  #two,
+  #four {
+    min-height: auto;
+  }
+
+  #shop-now {
+    position: relative;
+    left: 0;
+  }
+
+  #case {
+    position: relative;
+    display: block;
+    margin: auto;
+    left: 0;
+    top: 0;
+    height: 40vh;
+    width: auto;
+  }
 }
