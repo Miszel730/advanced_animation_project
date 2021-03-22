@@ -10,14 +10,20 @@ section,
     flex-wrap: wrap;
 }
 
+.bubble_box {
+    position: relative;
+}
+
 .bubble {
     position: absolute;
-    right: 20vw;
-    top: 25vh;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     width: 1vw;
     height: 1vw;
     background-color: #6F2DBD;
     border-radius: 50%;
+    z-index: -1;
 }
 
 .bubble:nth-child(5n+0) {

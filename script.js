@@ -1,12 +1,12 @@
 "use strict";
 
-const bubblesBackground = document.querySelector(".bubbles").getBoundingClientRect();
+const bubblesBackground = document.querySelector(".bubble_box").getBoundingClientRect();
 
 for (let bubble = 0; bubble < 100; bubble++) {
     const bubbleFriend = document.createElement("div");
     bubbleFriend.classList.add("bubble");
 
-    document.querySelector(".bubbles").appendChild(bubbleFriend);
+    document.querySelector(".bubble_box").appendChild(bubbleFriend);
 }
 
 const bubble = document.querySelectorAll(".bubble");
@@ -24,7 +24,7 @@ bubble.forEach(b => {
         },
         {
             offset: .25,
-            transform: `translate(${endX}px,${endY}px) 
+            transform: `translate(${endY}px,${endX}px) 
                       scale(${randomScale})`,
             opacity: randomOpacity,
         },
