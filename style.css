@@ -1,0 +1,112 @@
+section img {
+    max-height: 400px;
+}
+
+section,
+.wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bubble_box {
+    position: relative;
+}
+
+.bubble {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 1vw;
+    height: 1vw;
+    background-color: #6F2DBD;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.bubble:nth-child(5n+0) {
+    background-color: #EF6351;
+}
+
+.bubble:nth-child(5n+1) {
+    background-color: #B298DC;
+}
+
+.bubble:nth-child(5n+2) {
+    background-color: #09DC8A;
+}
+
+.bubble:nth-child(5n+3) {
+    background-color: #B9FAF8;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+section:nth-child(1) h1 {
+    color: var(--lavender);
+}
+
+section:nth-child(2) h1 {
+    color: var(--fire);
+}
+
+section:nth-child(3) h1 {
+    color: var(--green);
+}
+
+section:nth-child(4) h1 {
+    color: var(--violet);
+}
+
+.wrap img {
+    position: relative;
+}
+
+.cyan_bubble {
+    background-color: var(--cyan);
+    padding: calc(100px + 8vw);
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    background-image: url(./img/blur-effect.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 550px;
+}
+
+.container {
+    margin: 10px;
+    max-width: 600px;
+}
+
+.featured img {
+    max-height: 300px;
+    margin: 50px;
+}
+
+.featured {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+section:last-child {
+    background-color: var(--green);
+}
+
+@media (max-width: 600px) {
+    section:nth-child(2) .container {
+        order: -1;
+    }
+}
