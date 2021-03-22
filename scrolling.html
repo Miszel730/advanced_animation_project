@@ -6,8 +6,25 @@
     <title>Document</title>
     <link rel="stylesheet" href="common.css" />
     <link rel="stylesheet" href="scrolling.css" />
+    
   </head>
   <body>
+
+  <header>
+    <div class="logo">
+      <img src="/img/logo.svg" alt="logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="#">Phone Covers</a></li>
+        <li><a href="#">Popsockets</a></li>
+        <li><a href="#">Holders</a></li>
+        <li><a href="#"><b>About us</b></a></li>
+      </ul>
+    </nav>
+  </header>
+
     <section id="one"><h1>About Us</h1></section>
     <section id="two">
       <h1>One start-up</h1>
@@ -18,27 +35,50 @@
       <img id="socket3" src="img/socket3.png" />
     </section>
     <section id="three">
-      <h2>How can I safely hide the design of the phone...</h2>
+      <h2 class="left">How can I safely hide the design of the phone...</h2>
       <p>
         Our start-up provides you with everything you might need to customize your old (or even brand new!) phone. Browse our page to find the variety of options like pop sockets, covers, keychains and stickers. You can even use our fancy
         configurator to see what would go great together. Create your own sets, and we’ll see if we want to make them - or just run away with your money.
       </p>
-      <h2>...that I bought for the design alone?</h2>
+      <h2 class="right">...that I bought for the design alone?</h2>
     </section>
     <section id="four">
-      <button>Shop now</button>
+      <button id="shop-now"><a href="configurator.html">Shop now</a></button>
       <img id="socket" src="img/socket.png" />
       <img id="boom" src="img/boom.png" />
       <img id="keychains" src="img/keychains.png" />
       <img id="case" src="img/case.png" />
     </section>
     <section id="five">
-      <h2>But seriously...</h2>
+      <h2 class="left">But seriously...</h2>
       <p>
         All our creations are made on demand, which reduces waste. Our preferred materials are biodegradable and recyclable. Every year we donate 1% of our income to a charity dedicated to cleaning the seas - did you know that plastic keychains makes
         up to 15 tonnes of sea polution? Our diverse team creates the handmade products in a healthy and friendly atmosphere.
       </p>
-      <h2>...we're an awesome start-up!</h2>
+      <h2 class="right">...we're an awesome start-up!</h2>
     </section>
+
+    <footer>
+      <div class="logo">
+        <img src="/img/logo.svg" alt="logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Phone Covers</a></li>
+          <li><a href="#">Popsockets</a></li>
+          <li><a href="#">Holders</a></li>
+        </ul>
+      </nav>
+      <ul>
+        <li><a href="#">Terms and conditions</a></li>
+        <li><a href="#">Cookies policy</a></li>
+        <li><a href="#">Returns and refunds</a></li>
+      </ul>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+    <script src="scrolling.js"></script>
+
   </body>
 </html>

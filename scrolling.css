@@ -98,3 +98,36 @@ button {
   bottom: 50px;
   left: 38vw;
 }
+
+.right {
+  text-align: right;
+  margin-right: 2em;
+}
+
+.left {
+  text-align: left;
+  margin-left: 2em;
+}
+
+#shop-now {
+  z-index: 15;
+  background-color: #f59d92;
+  border-radius: 50px;
+  padding: 5px 15px;
+  transition: .2s;
+  text-decoration: none;
+}
+
+#shop-now a {
+  color: white;
+  text-decoration: none;
+}
+
+#shop-now:hover {
+  opacity: .95;
+  color: white;
+  /* background-color: #f3b3ab; */
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: .2s;
+}
