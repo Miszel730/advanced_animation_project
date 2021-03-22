@@ -39,10 +39,10 @@ bubble.forEach(b => {
         iterations: Infinity
     };
 
-    const starAnimation = b.animate(keyframes, properties);
-    starAnimation.onfinish = function () {
-        starAnimation.cancel();
-        starAnimation.currentTime = 0;
-        starAnimation();
+    const bubbleAnimation = b.animate(keyframes, properties);
+    bubbleAnimation.onfinish = function () {
+        bubbleAnimation.cancel();
+        bubbleAnimation.currentTime = 0;
+        bubbleAnimation();
     };
 })

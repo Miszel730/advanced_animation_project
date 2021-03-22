@@ -84,7 +84,6 @@ button {
   background: none;
   text-shadow: 2px 2px #86362b;
   padding: 0.5em;
-  margin: 1em;
   color: var(--fire);
   text-decoration: underline;
   text-underline-offset: 9px;
@@ -109,7 +108,7 @@ button:focus {
   }
 
   main {
-    margin: 100px;
+    margin: 30px;
   }
 
   header {
@@ -126,5 +125,9 @@ button:focus {
   footer ul {
     display: block;
     text-align: left;
+  }
+
+  button {
+    margin: 1em;
   }
 }

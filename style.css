@@ -42,6 +42,14 @@ section,
     background-color: #B9FAF8;
 }
 
+h1 {
+    margin-top: 0;
+}
+
+section:nth-child(1) h1 {
+    color: var(--lavender);
+}
+
 section:nth-child(2) h1 {
     color: var(--fire);
 }
@@ -50,13 +58,17 @@ section:nth-child(3) h1 {
     color: var(--green);
 }
 
+section:nth-child(4) h1 {
+    color: var(--violet);
+}
+
 .wrap img {
     position: relative;
 }
 
 .cyan_bubble {
     background-color: var(--cyan);
-    padding: 200px;
+    padding: calc(100px + 8vw);
     border-radius: 100%;
     width: 100px;
     height: 100px;
@@ -77,11 +89,24 @@ section:nth-child(3) h1 {
     max-width: 600px;
 }
 
-section:last-child img {
+.featured img {
     max-height: 300px;
-    margin: 20px;
+    margin: 50px;
+}
+
+.featured {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 section:last-child {
     background-color: var(--green);
+}
+
+@media (max-width: 600px) {
+    section:nth-child(2) .container {
+        order: -1;
+    }
 }
