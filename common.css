@@ -9,6 +9,7 @@
   --lavender: #b298dc;
   --green: #6ecab0;
   --cyan: #b9faf8;
+  --grey: #333333;
 }
 
 body {
@@ -16,6 +17,7 @@ body {
   font-weight: 300;
   overflow-x: hidden;
   margin: 10px;
+  color: var(--grey);
 }
 
 /* HEADER */
@@ -64,11 +66,13 @@ section {
 h1 {
   font-family: "Lusitana", serif;
   font-size: 6em;
+  color: var(--lavender);
 }
 
 h2 {
   font-family: "Lusitana", serif;
   font-size: 3.5em;
+  color: var(--lavender);
 }
 
 p {
@@ -101,12 +105,12 @@ button:focus {
 
 @media (min-width: 1100px) {
   body {
-    max-width: 1400px;
+    max-width: 1920px;
     margin: auto;
   }
 
   main {
-    margin: 30px;
+    margin: auto;
   }
 
   header {
@@ -126,6 +130,10 @@ button:focus {
   footer ul {
     display: block;
     text-align: left;
+  }
+
+  p {
+    margin: 0 4em;
   }
 }
 
@@ -147,8 +155,12 @@ button:focus {
   header {
     padding-top: 2em;
   }
-}
+
   button {
     margin: 1em;
   }
+}
+
+#white {
+  color: white;
 }
