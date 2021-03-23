@@ -81,18 +81,29 @@ p {
 
 button {
   font-family: "Lusitana", serif;
-  font-size: 2em;
+  font-size: 1.5em;
+  background-color: #f59d92;
+  min-width: 150px;
+  color: white;
   border: none;
-  background: none;
-  text-shadow: 2px 2px #86362b;
-  padding: 0.5em;
-  color: var(--fire);
-  text-decoration: underline;
-  text-underline-offset: 9px;
+  border-radius: 50px;
+  padding: 8px 18px;
+  transition: 0.2s;
+  text-decoration: none;
+  margin: 20px;
+  cursor: pointer;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
 }
 
 button:hover {
   color: #f59d92;
+  opacity: 0.95;
+  transform: scale(1.1);
+  transition: 0.2s;
 }
 
 button:active {

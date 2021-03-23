@@ -115,3 +115,36 @@ main {
     width: 550px;
   }
 }
+
+/* SVG STUFF */
+.g-interactive {
+  fill: transparent;
+}
+
+path {
+  stroke-width: 3px;
+}
+
+#Shadow_Image,
+#Camera_Thing,
+#Cardholder1, #Cardholder2, #Cardholder3,
+#Popsocket1, #Popsocket2, #Popsocket3,
+#Keychain1, #Keychain2 {
+    pointer-events: none;
+}
+
+.c-field:hover,
+#popsockets img:hover,
+#card_holder img:hover,
+#keychains img:hover {
+  opacity: .8;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.chosen {
+  opacity: .8;
+}
