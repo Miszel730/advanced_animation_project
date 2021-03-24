@@ -12,10 +12,10 @@
     <path d="M108,51c36.31-.47,85.84-6.47,101,15,6.35,9,6,23.61,6,39,0,30.1,4.22,72.68-14,85-10.13,6.85-24.82,7-42,7-28.11,0-60.13,3.23-72-13-12.65-17.29-8-48.78-8-78,0-10.7-1.8-25.31,2-33,2.73-5.53,9.77-13.75,15-17C99.71,53.69,104.48,53.48,108,51Z" fill-rule="evenodd"/>
   </g>
   <g id="Camera_Thing" data-name="Camera Thing">
-    <image id="Layer_0_copy_Image" data-name="Layer 0 copy Image" width="452" height="782" xlink:href="../svg/phone-conf-v21.png"/>
+    <image id="Layer_0_copy_Image" data-name="Layer 0 copy Image" width="452" height="782" xlink:href="./svg/phone-conf-v21.png"/>
   </g>
   <g id="Shadow_Image" data-name="Shadow Image">
-    <image id="Shadow_Image-2" data-name="Shadow Image" width="362" height="725" opacity=".7" transform="translate(56 27)" xlink:href="../svg/phone-conf-v22.png"/>
+    <image id="Shadow_Image-2" data-name="Shadow Image" width="362" height="725" opacity=".7" transform="translate(56 27)" xlink:href="./svg/phone-conf-v22.png"/>
   </g>
   <g id="Cardholder1" class="hide">
     <image width="994" height="1500" transform="translate(78.13 234.39) scale(0.33)" xlink:href="../img/card1.png"/>
@@ -36,9 +36,9 @@
     <image width="800" height="800" transform="translate(111.18 226.26) scale(0.33)" xlink:href="../img/pop3.png"/>
   </g>
   <g id="Keychain1" class="hide">
-    <image width="160" height="504" transform="translate(5.8) rotate(10.96)" xlink:href="../svg/rick.png"/>
+    <image width="160" height="504" transform="translate(5.8) rotate(10.96)" xlink:href="./svg/rick.png"/>
   </g>
   <g id="Keychain2" data-name="Layer 12" class="hide">
-    <image width="118" height="426" transform="translate(9.05 50.13) rotate(4.99) scale(1.04)" xlink:href="../svg/morty.png"/>
+    <image width="118" height="426" transform="translate(9.05 50.13) rotate(4.99) scale(1.04)" xlink:href="./svg/morty.png"/>
   </g>
 </svg>

@@ -8,12 +8,14 @@ h2 {
     border-right: 1px solid black;
     padding-right: 40px;
   }
+
   h1 {
     /* font-family: "Roboto", sans-serif;
     font-size: 40px; */
     text-align: center;
     margin-top: 50px;
   }
+
   h2 {
     font-family: "Roboto", sans-serif;
     font-size: 25px;
@@ -26,6 +28,7 @@ h2 {
     border-radius: 30px;
     height: 850px;
   }
+
   #accessories h2 {
     margin-left: 15px;
   }
@@ -34,13 +37,16 @@ h2 {
     height: 550px;
   }
 }
+
 #card_holder img {
   width: 160px;
 }
+
 #popsockets img {
   width: 150px;
   height: auto;
 }
+
 #keychains img {
   width: 80px;
   margin: 0 30px 0 30px;
@@ -49,9 +55,11 @@ h2 {
 #accessories {
   display: inline-block;
 }
+
 section h2 {
   text-align: left;
 }
+
 #colors {
   border-radius: 50px;
   height: auto;
@@ -77,6 +85,7 @@ main {
       "color-pick"
       "accessories";
   }
+
   /* #product {
     border-bottom: 1px solid black;
     background-image: url(/img/blur.png);
@@ -88,17 +97,21 @@ main {
     text-align: center;
     margin-top: 20px;
   }
+
   h2 {
     margin-left: 17px;
     /* font-family: "Roboto", sans-serif;
     font-size: 17px; */
   }
+
   #colors {
     margin: 30px;
   }
+
   #product img {
     height: 350px;
   }
+
   #accessories {
     display: inline-block;
     margin-left: 10px;
@@ -108,6 +121,7 @@ main {
     border-radius: 30px;
     height: 1050px;
   }
+
   #cover_svg img {
     background-image: url(/img/blur.png);
     background-repeat: no-repeat;
@@ -127,10 +141,15 @@ path {
 
 #Shadow_Image,
 #Camera_Thing,
-#Cardholder1, #Cardholder2, #Cardholder3,
-#Popsocket1, #Popsocket2, #Popsocket3,
-#Keychain1, #Keychain2 {
-    pointer-events: none;
+#Cardholder1,
+#Cardholder2,
+#Cardholder3,
+#Popsocket1,
+#Popsocket2,
+#Popsocket3,
+#Keychain1,
+#Keychain2 {
+  pointer-events: none;
 }
 
 .c-field:hover,
