@@ -1,6 +1,7 @@
 /* for desktop */
 h2 {
   color: #333333;
+  width: 100%;
 }
 
 @media only screen and (min-width: 601px) {
@@ -26,7 +27,6 @@ h2 {
     margin-left: 40px;
     background-color: lightgray;
     border-radius: 30px;
-    height: 850px;
   }
 
   #accessories h2 {
@@ -75,6 +75,11 @@ main {
   max-width: 1200px;
 }
 
+#cover_svg {
+  max-width: 400px;
+  margin: auto;
+}
+
 /* mobile version */
 
 @media only screen and (max-width: 600px) {
@@ -108,18 +113,12 @@ main {
     margin: 30px;
   }
 
-  #product img {
-    height: 350px;
-  }
-
   #accessories {
     display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
-
-    background-color: lightgray;
+    padding background-color: lightgray;
     border-radius: 30px;
-    height: 1050px;
   }
 
   #cover_svg img {
