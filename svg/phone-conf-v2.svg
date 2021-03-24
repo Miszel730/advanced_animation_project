@@ -18,22 +18,22 @@
     <image id="Shadow_Image-2" data-name="Shadow Image" width="362" height="725" opacity=".7" transform="translate(56 27)" xlink:href="./svg/phone-conf-v22.png"/>
   </g>
   <g id="Cardholder1" class="hide">
-    <image width="994" height="1500" transform="translate(78.13 234.39) scale(0.33)" xlink:href="../img/card1.png"/>
+    <image width="994" height="1500" transform="translate(78.13 234.39) scale(0.33)" xlink:href="img/card1.png"/>
   </g>
   <g id="Cardholder2" class="hide">
-    <image width="994" height="1500" transform="translate(77.26 233.36) scale(0.33)" xlink:href="../img/card2.png"/>
+    <image width="994" height="1500" transform="translate(77.26 233.36) scale(0.33)" xlink:href="img/card2.png"/>
   </g>
   <g id="Cardholder3" class="hide">
-    <image width="994" height="1500" transform="translate(70.37 230.21) scale(0.34)" xlink:href="../img/card3.png"/>
+    <image width="994" height="1500" transform="translate(70.37 230.21) scale(0.34)" xlink:href="img/card3.png"/>
   </g>
   <g id="Popsocket1" class="hide">
-    <image width="800" height="800" transform="translate(119.31 234.39) scale(0.31)" xlink:href="../img/pop1.png"/>
+    <image width="800" height="800" transform="translate(119.31 234.39) scale(0.31)" xlink:href="img/pop1.png"/>
   </g>
   <g id="Popsocket2" class="hide">
-    <image width="706" height="706" transform="translate(141.44 246.52) scale(0.31)" xlink:href="../img/pop2.png"/>
+    <image width="706" height="706" transform="translate(141.44 246.52) scale(0.31)" xlink:href="img/pop2.png"/>
   </g>
   <g id="Popsocket3" class="hide">
-    <image width="800" height="800" transform="translate(111.18 226.26) scale(0.33)" xlink:href="../img/pop3.png"/>
+    <image width="800" height="800" transform="translate(111.18 226.26) scale(0.33)" xlink:href="img/pop3.png"/>
   </g>
   <g id="Keychain1" class="hide">
     <image width="160" height="504" transform="translate(5.8) rotate(10.96)" xlink:href="./svg/rick.png"/>
